@@ -1,50 +1,30 @@
 
 <div align="center">
   
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/emcie-co/parlant/blob/develop/LogoTransparentLight.png?raw=true">
-  <img alt="Parlant Banner" src="https://github.com/emcie-co/parlant/blob/develop/LogoTransparentDark.png?raw=true" width=400 />
-</picture>
 
 
 
-  <p>
-    <a href="https://www.parlant.io/" target="_blank">Website</a> —
-    <a href="https://www.parlant.io/docs/quickstart/introduction" target="_blank">Introduction</a> —
-    <a href="https://www.parlant.io/docs/tutorial/getting-started" target="_blank">Tutorial</a> —
-    <a href="https://www.parlant.io/docs/about" target="_blank">About</a> —
-  </p>
 
 
+  
 
-  <p>
-    <a href="https://pypi.org/project/parlant/" alt="Parlant on PyPi"><img alt="PyPI - Version" src="https://img.shields.io/pypi/v/parlant"></a>
-    <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/parlant">
-    <a href="https://opensource.org/licenses/Apache-2.0"><img alt="Apache 2 License" src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" /></a>
-    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/emcie-co/parlant?label=commits">
-    <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/parlant">
-    <a href="https://discord.gg/duxWqxKk6J"><img alt="Discord" src="https://img.shields.io/discord/1312378700993663007?style=flat&logo=discord&logoColor=white&label=discord">
-</a>
-  </p>
-
-<a href="https://trendshift.io/repositories/12768" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12768" alt="emcie-co%2Fparlant | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 </div>
 
 # Build a scalable AI chat agent—in minutes.
-Parlant is the open-source backbone for LLM agents that stay under control as you scale their complexity.
+valiant is the open-source backbone for LLM agents that stay under control as you scale their complexity.
 
 ## 💡 Bring control and consistency to LLM agents...
 
 You've built a conversational AI agent—that's great! However, when you actually test it, you see it's not handling many customer interactions properly, and your business experts are displeased with its behavior. We've all been there. What do you do?
 
-Parlant might be the answer you've been waiting for. It's an open-source conversation modeling engine that gives you unparalleled, scalable control over LLMs, enabling the creation of deliberate, predictable, and compliant Agentic User Experience (UX).
+valiant might be the answer you've been waiting for. It's an open-source conversation modeling engine that gives you unparalleled, scalable control over LLMs, enabling the creation of deliberate, predictable, and compliant Agentic User Experience (UX).
 
-## ✨ Why Parlant?
+## ✨ Why?
 
 Building good quality conversational AI means teaching your agents many facts, rules, and principles of behavior to follow when interacting with customers.
 
-Parlant lets you define your conversational rules and logic in natural language, and it manages the underlying LLM's context such that it knows exactly which rules it must conform to at any point in a conversation.
+valiant lets you define your conversational rules and logic in natural language, and it manages the underlying LLM's context such that it knows exactly which rules it must conform to at any point in a conversation.
 
 - 🚀 Gets you up and running with a live conversational agent in minutes
 - ⚡️ Uses perceived-performance techniques to deliver responsive chat UX out-of-the-box
@@ -54,12 +34,12 @@ Parlant lets you define your conversational rules and logic in natural language,
 
 ## 🚀 Getting started
 
-Getting Parlant up and running is straightforward.
+
 
 ### Installation
 
 ```bash
-pip install parlant
+pip install valiant
 ```
 
 ### Code Example
@@ -83,8 +63,8 @@ async def add_item_to_cart(context: p.ToolContext, item_id: str) -> p.ToolResult
 
 @p.tool
 async def list_books(context: p.ToolContext, preference_query: str) -> p.ToolResult:
-  # Parlant automatically infers and fills up argument values from conversation context.
-  # In more advanced use cases, you can instruct Parlant what rules to follow when
+  # valiant automatically infers and fills up argument values from conversation context.
+  # In more advanced use cases, you can instruct valiant what rules to follow when
   # inferring argument values, such as whether they can be deduced or if they must
   # be provided explicitly by the customer (to avoid mistakes).
   books = await find_books(preference_query)
@@ -124,7 +104,7 @@ async def configure_agent(server: p.Server) -> None:
   # You can define as many journeys as you like, and they can be
   # used to handle different conversational flows.
   #
-  # Parlant will automatically select the most appropriate journey(s)
+  # valiant will automatically select the most appropriate journey(s)
   # to use based on the conversation context, keeping your prompts
   # shorter, and more focused and consistent in their results.
   recommend_book = await agent.create_journey(
@@ -183,7 +163,7 @@ async def configure_agent(server: p.Server) -> None:
 
   # And much more!
   #
-  # Parlant supports:
+  # valiant supports:
   # 1. Guideline relationships — allowing you to prioritize certain guidelines over others,
   # make some guidelines activate only when others are in-context (dependency), and more.
   # 2. Glossary — allowing you to define terms and phrases that the AI agent should understand
@@ -205,19 +185,9 @@ if __name__ == "__main__":
   # for an integrated playground web UI.
 ```
 
-## ⭐ Star Parlant to support our vision!
-Creating Parlant is a significant effort, as conversational semantics are extremely complex to get under control.
-
-Your star goes a long way to support our team's effort in creating a reality where generative AI agents reliably do what we tell them!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=emcie-co/parlant&type=Date)](https://www.star-history.com/#emcie-co/parlant&Date)
-
-## Integrated prototyping playground
-<img alt="Parlant Demo" src="https://github.com/emcie-co/parlant/blob/develop/demo.gif?raw=true" />
-
 ## 🛠️ Key features
 
-Parlant is ***packed*** with useful features for production conversational AI!
+valiant is ***packed*** with useful features for production conversational AI!
 
   * **Behavioral Guidelines:** Easily define rules and guardrails for agent interactions and **dictate and enforce exact conversation behavior**.
   * **Semantic Relationships:** Define how different guidelines relate to each other (dependencies, prioritization, etc.), creating sophisticated and adaptive conversational flows.
@@ -227,27 +197,24 @@ Parlant is ***packed*** with useful features for production conversational AI!
   * **Utterance Templates:** Sanitize LLM outputs, preventing unpredictable or inaccurate messages and ensuring compliance and accuracy.
   * **Glossary Management:** Control and manage the agent's vocabulary for consistent and accurate communication.
   * **Contextual Information:** Inject customer-specific or domain-specific information for personalized and relevant responses.
-  * **Continuous Re-evaluation:** The Parlant engine constantly assesses the conversational situation, checks relevant guidelines, gathers necessary information, and re-evaluates its approach.
+  * **Continuous Re-evaluation:** The valiant engine constantly assesses the conversational situation, checks relevant guidelines, gathers necessary information, and re-evaluates its approach.
 
-**For more detailed installation instructions and advanced usage, please refer to our [Official Documentation](https://parlant.io).**
+
 
 ## React Widget
-Please see https://github.com/emcie-co/parlant-chat-react for our official, highly-customizable React widget to interact with your Parlant server on your app.
-
-![https://github.com/emcie-co/parlant-chat-react/raw/main/src/assets/chatbox.gif](https://github.com/emcie-co/parlant-chat-react/raw/main/src/assets/chatbox.gif)
 
 ```typescript
 import React from 'react';
-import ParlantChatbox from 'parlant-chat-react';
+import valiantChatbox from 'valiant-chat-react';
 
 function App() {
   return (
     <div>
       <h1>My Application</h1>
-      <ParlantChatbox
+      <valiantChatbox
         float
         agentId="AGENT_ID"
-        server="PARLANT_SERVER_URL"
+        server="valiant_SERVER_URL"
       />
     </div>
   );
@@ -259,7 +226,7 @@ export default App;
 
 ## 🌐 Use cases & industries
 
-Parlant is ideal for organizations that demand precision and reliability from their AI agents. It's currently being used to deliver complex conversational agents in:
+valiant is ideal for organizations that demand precision and reliability from their AI agents. It's currently being used to deliver complex conversational agents in:
 
   * **Regulated Financial Services:** Ensuring compliance and accuracy in customer interactions.
   * **Healthcare Communications:** Providing accurate, compliant, and sensitive patient information.
@@ -273,8 +240,9 @@ We use the Linux-standard Developer Certificate of Origin (DCO.md), so that, by 
 
 Please consult [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
-Can't wait to get involved? Join us on Discord and let's discuss how you can help shape Parlant. We're excited to work with contributors directly while we set up our formal processes!
+Can't wait to get involved? Join us on Discord and let's discuss how you can help shape valiant. We're excited to work with contributors directly while we set up our formal processes!
 
 ## 📧 Contact & support
 
 Need help? Ask us anything on [Discord](https://discord.gg/duxWqxKk6J). We're happy to answer questions and help you get up and running!
+

@@ -24,13 +24,8 @@ valiant might be the answer you've been waiting for. It's an open-source convers
 
 Building good quality conversational AI means teaching your agents many facts, rules, and principles of behavior to follow when interacting with customers.
 
-valiant lets you define your conversational rules and logic in natural language, and it manages the underlying LLM's context such that it knows exactly which rules it must conform to at any point in a conversation.
 
-- 🚀 Gets you up and running with a live conversational agent in minutes
-- ⚡️ Uses perceived-performance techniques to deliver responsive chat UX out-of-the-box
-- 🧱 A scalable foundation for scaling your agent's knowledge and rules
-- 🎯 Dramatically increases the LLM's consistency in following your instructions
-- 💬 Tailor-made framework for conversational, customer-facing use cases
+
 
 ## 🚀 Getting started
 

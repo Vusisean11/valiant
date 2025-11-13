@@ -182,17 +182,25 @@ if __name__ == "__main__":
 
 ## 🛠️ Key features
 
-valiant is ***packed*** with useful features for production conversational AI!
+valiant is packed with useful features for production conversational AI!
 
-  * **Behavioral Guidelines:** Easily define rules and guardrails for agent interactions and **dictate and enforce exact conversation behavior**.
-  * **Semantic Relationships:** Define how different guidelines relate to each other (dependencies, prioritization, etc.), creating sophisticated and adaptive conversational flows.
-  * **Tool Integration:** Seamlessly attach external tools (APIs, databases, etc.) with specific guidance for agent usage.
-  * **Context Awareness:** Intelligently tracks conversation progress, understanding what instructions need to apply at each point, and when required actions have already been taken.
-  * **Dynamic Guideline Matching:** Ensures contextually relevant instruction execution, eliminating irrelevant instructions at any point in the conversation — solving LLM attention drift.
-  * **Utterance Templates:** Sanitize LLM outputs, preventing unpredictable or inaccurate messages and ensuring compliance and accuracy.
-  * **Glossary Management:** Control and manage the agent's vocabulary for consistent and accurate communication.
-  * **Contextual Information:** Inject customer-specific or domain-specific information for personalized and relevant responses.
-  * **Continuous Re-evaluation:** The valiant engine constantly assesses the conversational situation, checks relevant guidelines, gathers necessary information, and re-evaluates its approach.
+**Behavioral Guidelines**: Easily define rules and guardrails for agent interactions and dictate and enforce exact conversation behavior.
+
+**Semantic Relationships**: Define how different guidelines relate to each other (dependencies, prioritization, etc.), creating sophisticated and adaptive conversational flows.
+
+**Tool Integration**: Seamlessly attach external tools (APIs, databases, etc.) with specific guidance for agent usage.
+
+**Context Awareness**: Intelligently tracks conversation progress, understanding what instructions need to apply at each point, and when required actions have already been taken.
+
+**Dynamic Guideline Matching**: Ensures contextually relevant instruction execution, eliminating irrelevant instructions at any point in the conversation, solving LLM attention drift.
+
+**Utterance Templates**: Sanitize LLM outputs, preventing unpredictable or inaccurate messages and ensuring compliance and accuracy.
+
+**Glossary Management**: Control and manage the agent's vocabulary for consistent and accurate communication.
+
+**Contextual Information**: Inject customer specific or domain specific information for personalized and relevant responses.
+
+**Continuous Re-evaluation**: The valiant engine constantly assesses the conversational situation, checks relevant guidelines, gathers necessary information, and re-evaluates its approach.
 
 
 

@@ -16,9 +16,9 @@ valiant is the open-source backbone for LLM agents that stay under control as yo
 
 ## 💡 Bring control and consistency to LLM agents...
 
-You've built a conversational AI agent—that's great! However, when you actually test it, you see it's not handling many customer interactions properly, and your business experts are displeased with its behavior. We've all been there. What do you do?
+You've built a conversational AI agent, and that's awesome! But when you actually test it out, you notice it's not handling a lot of customer interactions the right way, and your business experts aren't happy with how it's performing. We've all been there. So what do you do?
 
-valiant might be the answer you've been waiting for. It's an open-source conversation modeling engine that gives you unparalleled, scalable control over LLMs, enabling the creation of deliberate, predictable, and compliant Agentic User Experience (UX).
+valiant might be exactly what you've been looking for. It's an open source conversation modeling engine that gives you incredible, scalable control over LLMs, letting you create intentional, predictable, and compliant Agentic User Experience (UX).
 
 ## ✨ Why?
 

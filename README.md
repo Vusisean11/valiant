@@ -238,14 +238,5 @@ valiant is ideal for organizations that demand precision and reliability from th
   * **Brand-Sensitive Customer Service:** Maintaining consistent brand voice and policies across all interactions.
   * **Personal Advocacy & Representation:** Supporting structured and goal-oriented dialogues for high-stakes scenarios.
 
-## 🤝 Contributing
-We use the Linux-standard Developer Certificate of Origin (DCO.md), so that, by contributing, you confirm that you have the rights to submit your contribution under the Apache 2.0 license (i.e., that the code you're contributing is truly yours to share with the project).
 
-Please consult [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
-
-Can't wait to get involved? Join us on Discord and let's discuss how you can help shape valiant. We're excited to work with contributors directly while we set up our formal processes!
-
-## 📧 Contact & support
-
-Need help? Ask us anything on [Discord](https://discord.gg/duxWqxKk6J). We're happy to answer questions and help you get up and running!
 
